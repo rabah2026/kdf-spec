@@ -19,5 +19,16 @@ It does NOT apply to:
 - AI models
 - Reasoning systems
 
+## Non-Goals
+The following are explicitly out of scope for KDF v0.1:
+- Contradiction detection
+- Contradiction resolution
+- Truthfulness evaluation
+- Inference or reasoning
+
+KDF artifacts MAY contain conflicting atoms if both are evidence-grounded.
+The presence of contradictory statements from different sources (or the same
+source) does not constitute a conformance failure.
+
 ## No Partial Compliance
 Partial compliance is not compliance.

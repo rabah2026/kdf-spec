@@ -32,5 +32,21 @@ Lossless does NOT mean:
 - Completeness
 - Truth assessment
 
+Lossless does NOT imply that all content from a source is captured.
+Extraction scope is explicitly bounded and declared.
+
+## Language Requirements
+The word "lossless" MUST NOT be used without specifying the bounds
+within which losslessness is claimed. Unqualified claims of losslessness
+are non-compliant.
+
+Compliant usage:
+- "lossless with respect to structure, semantics, and provenance
+   within explicitly defined bounds"
+
+Non-compliant usage:
+- "lossless extraction"
+- "lossless representation"
+
 ## Compliance
 Claims of losslessness MUST satisfy all conditions above.
