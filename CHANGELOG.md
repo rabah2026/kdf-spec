@@ -2,6 +2,13 @@
 
 All notable changes to the KDF specification are documented in this file.
 
+## [0.1.2] - 2026-01-15
+
+### Added
+- THREAT_MODEL.md: Normative security model defining assets, threats, and bounded guarantees.
+- CANONICALIZATION.md: Operational guidance for deterministic source hashing and text normalization.
+- Operational requirement: Evidence SHOULD capture pipeline identity.
+
 ## [0.1.1] - 2026-01-15
 
 ### Added

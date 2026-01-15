@@ -6,6 +6,8 @@ The following documents are NORMATIVE and MUST be followed
 for any implementation claiming KDF compliance:
 
 - TERMS.md
+- THREAT_MODEL.md
+- CANONICALIZATION.md
 - LOSSLESS.md
 - EVIDENCE_ADDRESSING.md
 - CONFORMANCE.md
